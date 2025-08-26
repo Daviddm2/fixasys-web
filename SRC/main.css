@@ -13825,5 +13825,10 @@ fieldset:disabled .btn {
     display: none !important;
   }
 }
-
+.color-orange{
+  color: #fd7e14;
+}
+.bg-orange{
+  background-color: #fd7e14;
+}
 /*# sourceMappingURL=main.css.map */
