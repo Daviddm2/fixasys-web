@@ -6,21 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Linea para que funcione el css-->
     <linK rel="stylesheet" href="SRC/main.css">
+    <linK rel="icon" href="SRC/img/logo.svg">
+
     <title>Fixasys</title>
     <!-- estilos para mostrar mas ancho el main -->
-    <style>
-        body {
-            height: 100vh;
-        }
-
-        main {
-            height: 80%;
-        }
-    </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-orange p-2 ">
+    <nav class="navbar navbar-expand-lg navbar-light bg-orange p-2">
         <div class="container">
             <a href="#" class="navbar-brand fs-2">Fixasys</a>
 
@@ -33,23 +26,49 @@
             <!-- Links -->
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link text-dark fs-6" href="">Servicios</a>
+                    <li class="nav-item ">
+                        <a class="nav-link text-dark fs-5" href="">Servicios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark fs-6" href="#">Sobre Nosotros</a>
+                        <a class="nav-link text-dark fs-5" href="#">Sobre Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark fs-6" href="SRC/contacto.html">Contacto</a>
+                        <a class="nav-link text-dark fs-5" href="SRC/contacto.html">Contacto</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <main class="container d-flex justify-content-center align-items-center  ">
+    <main class="container d-flex flex-column align-items-center mt-5  ">
         <!-- Contenido principal -->
-        <p class="h2 text-center fs-1 fw-bolder modal-fade-transform ">Bienvenido a un servicio técnico actulizado,
-            transparente y de calidad</p>
+        <div class="container mt-7 mb-9">
+            <p class="text-center fs-1 fw-bolder mb-3 ">Bienvenido a un servicio técnico actualizado,
+                transparente y de calidad</p>
+        </div>
+        <div class="container d-flex justify-content-center mt-7">
+            <div class="card card mx-5" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Asesoramiento telefónico</h5>
+                    <p class="card-text text-center">Asesoramiento telefonico para consultas sobre compras, fallos, recomendaciones de actualización...</p>
+                </div>
+            </div>
+            <div class="card card mx-5" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Montaje</h5>
+                    <p class="card-text text-center">Montaje de ordenador más instalación de sistema a elegir (Windows/Linux/dualboot).</p>
+                </div>
+            </div>
+            <div class="card mx-5" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Asesoramiento y montaje</h5>
+                    <p class="card-text text-center">Consigue un asesoramiento personalizado de componentes según tus necesidades para asegurarte de conseguir el mejor ordenador al mejor precio.</p>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-outline-dark mt-4">Consulta tus dudas</button>
     </main>
 
 

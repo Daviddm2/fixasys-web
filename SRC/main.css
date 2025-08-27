@@ -11976,13 +11976,65 @@ textarea.form-control-lg {
   }
 }
 .color-orange {
-  color: #fd7e14;
+  color: #77cb11;
 }
 
 .bg-orange {
-  background-color: #fd7e14;
+  background-color: #77cb11;
 }
 
 body {
   font-family: "Poppins", "sans-serif";
+}
+
+.mt-6 {
+  margin-top: 5rem !important;
+}
+
+.mt-7 {
+  margin-top: 7rem !important;
+}
+
+.mt-8 {
+  margin-top: 10rem !important;
+}
+
+.mt-9 {
+  margin-top: 12rem !important;
+}
+
+.mb-6 {
+  margin-bottom: 5rem !important;
+}
+
+.mb-7 {
+  margin-bottom: 7rem !important;
+}
+
+.mb-8 {
+  margin-bottom: 10rem !important;
+}
+
+.mb-9 {
+  margin-bottom: 12rem !important;
+}
+
+.my-6 {
+  margin-top: 5rem !important;
+  margin-bottom: 5rem !important;
+}
+
+.my-7 {
+  margin-top: 7rem !important;
+  margin-bottom: 7rem !important;
+}
+
+.my-8 {
+  margin-top: 10rem !important;
+  margin-bottom: 10rem !important;
+}
+
+.my-9 {
+  margin-bottom: 12rem !important;
+  margin-bottom: 12rem !important;
 }/*# sourceMappingURL=main.css.map */

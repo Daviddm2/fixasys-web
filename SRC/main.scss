@@ -5,14 +5,28 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 .color-orange{
-  color: #fd7e14;
+  color: #77cb11;
 }
 .bg-orange{
-  background-color: #fd7e14;
+  background-color: #77cb11;
 }
 body{
-  font-family: "Poppins", "sans-serif" ;
+  font-family: "Poppins", "sans-serif";
 }
+.mt-6 { margin-top: 5rem !important; }
+.mt-7 { margin-top: 7rem !important; }
+.mt-8 { margin-top: 10rem !important; }
+.mt-9 { margin-top: 12rem !important; }
+
+.mb-6 { margin-bottom: 5rem !important; }
+.mb-7 { margin-bottom: 7rem !important; }
+.mb-8 { margin-bottom: 10rem !important; }
+.mb-9 { margin-bottom: 12rem !important; }
+
+.my-6 { margin-top: 5rem !important; margin-bottom: 5rem !important; }
+.my-7 { margin-top: 7rem !important; margin-bottom: 7rem !important; }
+.my-8 { margin-top: 10rem !important; margin-bottom: 10rem !important; }
+.my-9 { margin-bottom: 12rem !important; margin-bottom: 12rem !important; }
 $primary: red;
 
 // Then add additional custom code here
